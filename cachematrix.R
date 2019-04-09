@@ -7,8 +7,8 @@
 # The function creates a "matrix" as a list containing functions to 
 # a) set the value of the matrix, 
 # b) get the value of the matrix,
-# a) set the value of the inverse matrix,
-# a) get the value of the inverse matrix,
+# c) set the value of the inverse matrix,
+# d) get the value of the inverse matrix,
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
   #a)
